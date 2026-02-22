@@ -79,21 +79,21 @@
         <h2>Paquete Básico Empresarial</h2>
         <p>Diagnóstico general de equipos, mantenimiento preventivo y respaldo básico de información.</p>
         <p class="price">$1,200 MXN</p>
-        <button>Solicitar Servicio</button>
+        <button onclick="mostrarMensaje()">Solicitar Servicio</button>
     </div>
 
     <div class="card">
         <h2>Paquete Profesional</h2>
         <p>Incluye mantenimiento preventivo y correctivo, optimización de red interna y configuración de seguridad básica.</p>
         <p class="price">$2,500 MXN</p>
-        <button>Solicitar Servicio</button>
+       <button onclick="mostrarMensaje()">Solicitar Servicio</button>
     </div>
 
     <div class="card">
         <h2>Paquete Integral Empresarial</h2>
         <p>Soporte mensual, auditoría tecnológica, plan de mejora continua y acompañamiento estratégico.</p>
         <p class="price">$4,800 MXN</p>
-        <button>Solicitar Servicio</button>
+       <button onclick="mostrarMensaje()">Solicitar Servicio</button>
     </div>
 
 </div>
@@ -101,6 +101,10 @@
 <footer>
     <p>© 2026 JG Soluciones Tecnológicas Empresariales</p>
 </footer>
-
+<script>
+function mostrarMensaje() {
+    alert("Gracias por tu interés. Nuestro equipo se pondrá en contacto contigo para brindarte más información.");
+}
+</script>
 </body>
 </html>
